@@ -1,4 +1,4 @@
-futurense-bigdata-bootcamp
+futurense-dataengg-bootcamp
 	|
 	|____	labs
 			|
