@@ -1,0 +1,8 @@
+Assignment #1:
+	Create directory "assignments" under /home/ubuntu/shell-scripts 
+	Create file "cities.txt"
+	Get the city names from user
+	Add city names into the file
+	Filter city name contains 'New'
+	Replace 'New' with 'Old'
+	Write the output to "old-cities.txt"
