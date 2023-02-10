@@ -1,6 +1,14 @@
-futurense_bigdata-bootcamp
+futurense-bigdata-bootcamp
 	|
 	|____	labs
+			|
+			|__sql
+					|
+					|___ sql-labs
+			|
+			|__python
+					|
+					|___ python-labs
 			|
 			|__shell-scripts
 					|
@@ -32,7 +40,12 @@ futurense_bigdata-bootcamp
 
 
 	|
-	|____ 	assignments
+	|____ assignments
+			|
+			|__sql
+			|
+			|__python
+
 			|
 			|__shell-scripts
 
