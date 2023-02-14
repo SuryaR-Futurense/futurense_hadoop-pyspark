@@ -12,7 +12,7 @@ Task #2:
 ========
 
 Copy hadoop.txt from from local filesystem to HDFS 
-Source: /home/ubuntu/futurense_hadoop-pyspark-ff16/labs/dataset/wordcount/hadoop.txt
+Source: /home/ubuntu/futurense_hadoop-pyspark/labs/dataset/wordcount/hadoop.txt
 Target: /user/training
 
 $ hadoop fs -put /home/ubuntu/futurense_hadoop-pyspark/labs/dataset/wordcount/hadoop.txt /user/training
