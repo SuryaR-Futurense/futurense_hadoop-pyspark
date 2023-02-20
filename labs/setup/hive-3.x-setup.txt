@@ -84,7 +84,7 @@ STEP 1: Config changes in hive-site.xml (to allow hive clients to connect with d
 		
 	#Save the changes
 
-STEP 2:$ hiveserver2 &		(Starts hive server and runs in background)
+STEP 2:$ nohup hive --service hiveserver2 >/dev/null 2>&1 &		(Starts hive server and runs in background)
 	
 	 $ ps -ef | grep hiveserver	(To verify if hiveserver is running)
 
