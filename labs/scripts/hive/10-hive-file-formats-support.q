@@ -27,6 +27,9 @@ INSERT OVERWRITE TABLE emp SELECT * FROM employee_json;
 
 # Writing data in different formats
 
+# Seq Format
+CREATE TABLE emp_seq STORED AS SEQUENCEFILE AS SELECT * FROM emp;
+
 # Avro Format
 CREATE TABLE emp_avro STORED AS AVRO AS SELECT * FROM emp;
 
