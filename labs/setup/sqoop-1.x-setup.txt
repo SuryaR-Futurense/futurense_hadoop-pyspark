@@ -27,6 +27,7 @@ export HADOOP_MAPRED_HOME=/opt/hadoop
 ##Link mysql-connector-java library to sqoop path
 ##NOTE: Mysql service should be installed, configured and started before this step
 sudo apt-get install libmysql-java
+#sudo apt install libmariadb-java
 sudo ln -s /usr/share/java/mysql-connector-java.jar /opt/sqoop/lib/mysql-connector-java.jar
 
 sqoop version
