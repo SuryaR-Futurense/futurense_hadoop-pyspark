@@ -31,6 +31,7 @@ spark.history.fs.logDirectory	file:/tmp/spark-events
 
 #Create spark-events temp directory
 sudo mkdir /tmp/spark-events
+sudo chmod 777 /tmp/spark-events
 
 ###Spark History Service Configuration - END
 
