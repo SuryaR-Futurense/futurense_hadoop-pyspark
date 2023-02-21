@@ -14,7 +14,7 @@ sudo service mysql stop
 sudo service mysql start
 
 #Connect to MySQL server through CLI client
-mysql -u root -p
+sudo mysql -u root -p
 (password: [nopassword])
 
 show databases;
