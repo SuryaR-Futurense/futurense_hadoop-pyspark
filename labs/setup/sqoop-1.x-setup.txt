@@ -1,8 +1,8 @@
 #Pre-requisite: hadoop-3.x
 
 #Download Sqoop
-cd ~/Downloads
-curl https://downloads.apache.org/sqoop/1.4.7/sqoop-1.4.7.bin__hadoop-2.6.0.tar.gz -o sqoop-1.4.7.tar.gz
+#cd ~/Downloads
+curl https://archive.apache.org/dist/sqoop/1.4.7/sqoop-1.4.7.bin__hadoop-2.6.0.tar.gz -o sqoop-1.4.7.tar.gz
 tar xzvf sqoop-1.4.7.tar.gz
 
 sudo mv sqoop-1.4.7.bin__hadoop-2.6.0 /opt/sqoop
